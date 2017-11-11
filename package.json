@@ -1,0 +1,15 @@
+{
+  "name": "photonnode",
+  "version": "1.0.0",
+  "main": "appjs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "particle-api-js": "^7.0.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}

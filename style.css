@@ -1,0 +1,59 @@
+*
+#map {
+	position: absolute;
+        height: 70%;
+        width: 70%;
+        left:20%;
+
+      }
+iframe {
+	opacity: 0;
+}
+
+
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-color:#ADFF2F;
+	height: 1600px;
+}
+
+
+.navigationWrapper
+{
+	position: absolute;
+
+	width: 150px;
+	padding: 30px;
+	background-color: none;
+}
+
+.navigationWrapper ul li
+{
+	display: block;
+	margin: 10px 0;
+}
+
+.navigationWrapper ul li a
+{
+	align-content: center;
+	color: #666;
+	text-decoration: none;
+	border: 1px solid #666;
+	padding: 10px;
+	display: block;
+	-webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.navigationWrapper ul li a:hover
+{
+	  background-color: green;
+  cursor: pointer;
+}
